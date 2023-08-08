@@ -1,15 +1,19 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 
+.one {
+    margin: 10;
+    padding: 10;
+}
 body {
-    background-color: rgb(222, 247, 247);
-    height: 50vw;
+    background-color: hsl(256, 100%, 5%); 
+     position: absolute; 
+            height: 50vw;
     width: 100%;
-    display: flex;
-    justify-content: center;
+     justify-content: center;
     align-items: center;
     padding: 5px;
 }
@@ -101,3 +105,28 @@ input[type="number"] {
     border: none;
     resize: vertical;
  }
+
+ header {
+    background-color: rgb(126, 111, 150);
+    color: #fff;
+    align-items: center;
+    height: 10px;
+    font-size: 20px; 
+    padding-bottom: 60px;
+    margin: 0.5%;
+ 
+  }
+ footer {
+    background-color: rgb(126, 111, 150);
+    color: #fff;
+    font-size: 14px;
+    align-items: center;
+    padding: 10px;
+    margin: 1%;
+
+   }
+
+   p {
+    color: #fff;
+    font-size: large;
+   }
